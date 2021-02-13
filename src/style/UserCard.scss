@@ -1,0 +1,40 @@
+.container { 
+	background-color: #1d4c5c;
+	box-shadow: 10px 10px 10px gray;
+	color: #f0ededb6;
+	margin: 20px;
+	width: 400px;
+	.input-holder {
+		padding: 20px;
+		margin: 0;
+		border-radius: 0 0 20px 20px;
+		background-color: rgba(0, 0, 0, 0.40);
+		input {
+		text-align: center;
+		border: none;
+		padding: 5px;
+		background-color: #1d4c5c;
+		color: white;
+		}
+	}
+ .info-holder{
+  margin: 25px;
+ .user-avatar { 
+ width: 120px;
+ border-radius: 50%;
+ }
+a {
+color: #6cf;
+text-decoration: none;
+&:hover {
+color: black;
+	}
+   }
+ }
+}
+.hide {
+display: none;
+}
+.not-found {
+padding: 50% 0;
+}
